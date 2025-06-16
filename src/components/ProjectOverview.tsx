@@ -73,7 +73,7 @@ const ProjectOverview = () => {
             <CardContent className="text-slate-300">
               <ul className="space-y-2">
                 <li>• Redis Cache</li>
-                <li>• Latência < 50ms</li>
+                <li>• Latência &lt; 50ms</li>
                 <li>• Busca otimizada</li>
                 <li>• Escalabilidade</li>
               </ul>
@@ -159,7 +159,7 @@ const ProjectOverview = () => {
                       </div>
                       <div className="flex items-center gap-2">
                         <Badge className="bg-green-600">GET</Badge>
-                        <span className="text-slate-300">/api/pedidos/{id}</span>
+                        <span className="text-slate-300">/api/pedidos/&#123;id&#125;</span>
                         <span className="text-slate-500">- Busca pedido por ID</span>
                       </div>
                       <div className="flex items-center gap-2">
@@ -169,12 +169,12 @@ const ProjectOverview = () => {
                       </div>
                       <div className="flex items-center gap-2">
                         <Badge className="bg-yellow-600">PUT</Badge>
-                        <span className="text-slate-300">/api/pedidos/{id}</span>
+                        <span className="text-slate-300">/api/pedidos/&#123;id&#125;</span>
                         <span className="text-slate-500">- Atualiza pedido</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <Badge className="bg-red-600">DELETE</Badge>
-                        <span className="text-slate-300">/api/pedidos/{id}</span>
+                        <span className="text-slate-300">/api/pedidos/&#123;id&#125;</span>
                         <span className="text-slate-500">- Remove pedido</span>
                       </div>
                     </div>
@@ -190,7 +190,7 @@ const ProjectOverview = () => {
                       </div>
                       <div className="flex items-center gap-2">
                         <Badge className="bg-green-600">GET</Badge>
-                        <span className="text-slate-300">/api/pedidos/cliente/{nome}</span>
+                        <span className="text-slate-300">/api/pedidos/cliente/&#123;nome&#125;</span>
                         <span className="text-slate-500">- Busca por cliente</span>
                       </div>
                     </div>
@@ -206,7 +206,7 @@ const ProjectOverview = () => {
                       </div>
                       <div className="flex items-center gap-2">
                         <Badge className="bg-green-600">GET</Badge>
-                        <span className="text-slate-300">/api/files/{id}</span>
+                        <span className="text-slate-300">/api/files/&#123;id&#125;</span>
                         <span className="text-slate-500">- Download de arquivo</span>
                       </div>
                     </div>
@@ -382,7 +382,7 @@ ENTRYPOINT ["java","-jar","/app.jar"]`}</pre>
                     <h4 className="font-semibold text-purple-300 mb-2">Serviços AWS Utilizados</h4>
                     <div className="grid grid-cols-2 gap-4">
                       <div>
-                        <h5 className="font-semibold text-cyan-300">Compute & Storage</h5>
+                        <h5 className="font-semibold text-cyan-300">Compute &amp; Storage</h5>
                         <ul className="text-sm text-slate-300 mt-2">
                           <li>• ECS Fargate</li>
                           <li>• ECR Repository</li>
@@ -391,7 +391,7 @@ ENTRYPOINT ["java","-jar","/app.jar"]`}</pre>
                         </ul>
                       </div>
                       <div>
-                        <h5 className="font-semibold text-cyan-300">Database & Cache</h5>
+                        <h5 className="font-semibold text-cyan-300">Database &amp; Cache</h5>
                         <ul className="text-sm text-slate-300 mt-2">
                           <li>• RDS Aurora MySQL</li>
                           <li>• ElastiCache Redis</li>
@@ -411,7 +411,7 @@ ENTRYPOINT ["java","-jar","/app.jar"]`}</pre>
         <div className="grid md:grid-cols-4 gap-4 mt-12">
           <Card className="bg-gradient-to-br from-green-900/30 to-green-800/30 border-green-700">
             <CardContent className="p-6 text-center">
-              <div className="text-3xl font-bold text-green-400">< 50ms</div>
+              <div className="text-3xl font-bold text-green-400">&lt; 50ms</div>
               <div className="text-green-300">Tempo de Resposta</div>
               <div className="text-xs text-slate-400 mt-1">Com Redis Cache</div>
             </CardContent>
